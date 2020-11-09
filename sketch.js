@@ -44,7 +44,7 @@ function setup() {
 	World.add(world, bWall);
 
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:1.2, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.6, isStatic:true});
 	World.add(world, packageBody);
 	packageSprite.scale=0.2;
 	packageSprite.debug=true;
